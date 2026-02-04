@@ -1,0 +1,20 @@
+export default function ChevronRightIcon({ className, ...props }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="6"
+      height="9"
+      fill="none"
+      viewBox="0 0 6 9"
+      className={className}
+      {...props}
+    >
+      <path
+        stroke="currentColor"
+        strokeLinecap="square"
+        strokeWidth="1.5"
+        d="m1.06 7.06 3-3-3-3"
+      ></path>
+    </svg>
+  );
+}
