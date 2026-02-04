@@ -1,10 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import MainNavbar from "@/shared/components/layouts/header/navbar/MainNavbar";
 import Footer from "@/shared/components/layouts/footer/Footer";
-import ContactDrawer from "@/shared/components/ui/ContactDrawer";
 import Providers from "@/store/providers";
 
-import "@mantine/core/styles.css";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -30,7 +28,7 @@ export default function RootLayout({ children }) {
       >
         <Providers>
           <MainNavbar />
-          <ContactDrawer />
+         
           {children}
           <Footer />
         </Providers>
